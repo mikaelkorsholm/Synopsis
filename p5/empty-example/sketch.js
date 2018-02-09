@@ -1,25 +1,23 @@
+let Bigmax;
+var x = 0;
+var y = 0;
+
+
+function preload(){
+Bigmax = loadModel('Bigmax_White_OBJ.obj');
+}
+
 function setup() {
-  createCanvas(500, 500, WEBGL);
+  createCanvas(1280, 720, WEBGL);
+  frameRate(100);
 }
- var a = 0.05;
- var b = 250
+
 function draw() {
-  if (keyIsPressed === true) {
-    background(b-100,204,0);
-  } else {
-    background(b,204,0);
-  }
-
-  if (keyIsPressed === true) {
-    rotateX(frameCount * mouseX);
-    rotateY(frameCount * 0.00);
-  } else {
-    rotateX(frameCount * 0.00);
-    rotateY(frameCount * 0.00);
-  }
-  box(200, 10, 50);
-
+  background(255-frameCount, 255-frameCount,255);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  //box(100,10,10);
+  model(Bigmax, 100,100);
+  fill((frameCount % 10)*100, (frameCount % 10)*15, (frameCount%3)*2);
 
 }
-
-console.log("Hej")
