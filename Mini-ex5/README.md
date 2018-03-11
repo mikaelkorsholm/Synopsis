@@ -1,3 +1,7 @@
 ![alt tekst](https://github.com/mikaelkorsholm/Miniexes/blob/master/Mini-ex5/Udklip%20til%205.PNG?raw=true)
 
 https://rawgit.com/mikaelkorsholm/Miniexes/master/Mini-ex5/p5/empty-example/index.html
+
+For this exercise I wanted to create a game based on generativity. Since I've always spent a lot of time drawing and creating art I wanted the game to be based around art. Often when one draws, paint or creates it is hard to get going because there are so many possibilities. Therefore I wanted this game to create some kind of constraint which often helps spark creativity. I also wanted it to be HARD like creating analog art often is. These requirements resulted in my program where rectangles are created in random spots in random sizes and with random colors. You, as the player, are the yellow square and you can push around the other rectangles and see if you can create some kind of expression with the boxes. Trying to play this game often ends with you being stuck in the edges or simply losing control of the builder. I wanted this to exemplify the expertise needed to create art.
+
+I found it interesting to incorporate the generativity, because it made it so that every time you refresh the program it's a fresh start. Having this kind of generativity makes it so that you will create things you wouldn't have thought of otherwise. I thought about replacing the very simple visual aestethic with more specified images, like noses, eyes, ears, but I decided that I liked the simple aesthetic more because it requires you to use your imagination. 
