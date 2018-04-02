@@ -1,2 +1,1 @@
-# Miniexes
-![alt text](soccer-34898_1280.png "Here goes nothing!")
+This is the repository for my exam project. Since I'm not very well-versed in github it sadly contains all of my previous mini-exercises, but it also contains the text Biometric Data, which is the subject of my Exam.
